@@ -1,0 +1,3 @@
+"""KKKK"""
+
+print("Output")
