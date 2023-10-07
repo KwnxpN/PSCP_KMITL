@@ -11,4 +11,3 @@ def fever(temperature):
     elif temperature >= 40:
         print("Very High Fever")
 fever(float(input()))
-"N1"
