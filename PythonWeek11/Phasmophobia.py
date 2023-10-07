@@ -1,6 +1,5 @@
 """KKK"""
 
-
 def phasmo():
     """get the evidience then check what ghost we found"""
     ghost_dict = {
@@ -24,6 +23,5 @@ def phasmo():
         print(*result, sep="\n")
     else:
         print("Not yet discovered")
-
 
 phasmo()
