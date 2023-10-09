@@ -9,6 +9,5 @@ def blyadnary(num):
         mylist.append(num%2)
         num = num//2
     mylist.reverse()
-    for i in mylist:
-        print(i, end='')
+    print(*mylist, sep="")
 blyadnary(int(input()))
