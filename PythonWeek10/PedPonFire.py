@@ -7,5 +7,5 @@ def pedponfire(ped_amount):
     for i in range(ped_amount):
         ped_dict[i] = int(input())
     abstract = int(input())
-    
+    notfinish
 pedponfire(int(input()))

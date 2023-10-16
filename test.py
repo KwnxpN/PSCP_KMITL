@@ -1,2 +1,1 @@
-list = [1, 2, 3]
-print(sum(list))
+print(13%4)
