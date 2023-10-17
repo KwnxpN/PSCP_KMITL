@@ -1,11 +1,11 @@
 """KKK"""
 
-def diamond(deep, _):
+def diamond(deep, width):
     """I love P'Tae"""
     diamond_list, result_list = [], []
     for _ in range(deep):
         diamond_list = input().split()
-        for i in range(len(diamond_list)):
+        for i in range(width):
             diamond_list[i] = int(diamond_list[i])
         if result_list == []:
             for i in diamond_list:
