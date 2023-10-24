@@ -1,1 +1,4 @@
-print(13%4)
+dict1 = {'a': 'k'}
+print(dict1)
+dict1['a'] += 'l'
+print(dict1)
