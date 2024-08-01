@@ -1,9 +1,10 @@
 '''inflation'''
 import math
-def inflate(money, years):
+def inflate(price, years):
     '''find current value of money'''
+    price *= 100
+    price = int(price)
     for _ in range(years):
-        new_money = money + (money*0.0381)
-        money = new_money
-    print("%.2f"%(math.floor(money*100)/100.0))
+        price = price + ((price*381)//10000)
+    print(f"{price//100}.{price%100}")
 inflate(float(input()), int(input()))
