@@ -1,0 +1,13 @@
+MoreEntry - Call built-in function (print())
+StillJumping - User-def function -> call , print(), input()
+FollowTheLead - Simple Math
+MyMath - Advanced Math
+Regulation - String format
+Train - Math symbols with String
+PlanB - Simple condition, condition radius
+SurprisingVote - Logic Practice
+PlanCDE.. - Algorithm Practice
+Odd-Even - mod(%) symbol
+Quadrant - multiplied conditions, and statement
+SumOfNum - while loop, break statement, condition in loop
+GradeMachine - for loop, condition in loop, String format
