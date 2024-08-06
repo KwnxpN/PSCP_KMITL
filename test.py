@@ -1,2 +1,5 @@
-num = "00000000"
-print(num.count("0"))
+base = "Test"
+print(id(base))
+base = base.upper()
+print(base)
+print(id(base))
